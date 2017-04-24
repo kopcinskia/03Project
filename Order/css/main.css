@@ -1,0 +1,9 @@
+.context {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    width: 3000px;
+}

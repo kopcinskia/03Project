@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="js/pgb.js"></script>
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body onload="init()">
+
+    <!-- My app main page -->
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>Business card</h1>
+        </div>
+        <div class="context" data-role="main" class="ui-content">
+            <p>Adrian Kopciński </p>
+            <br>
+            <p>kopcinskia@gmail.com</p>
+            <br>
+            <p>Informatyka</p>
+            <br>
+            <p>programowanie aplikacji mobilnych i webowych</p>
+            <br>
+            <a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Interests</a>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Adrian Kopciński</h1>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <div data-role="page" id="details">
+        <div data-role="header">
+            <a href="index.html" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-notext">Back</a>
+            <h1>Interests</h1>
+        </div>
+        <div class="context" data-role="main" class="ui-content">
+            <p>Cooding</p>
+            <br>
+            <p>Fitness</p>
+            <br>
+            <p>Cars</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Adrian Kopciński</h1>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="js/pgb.js"></script>
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body onload="init()">
+
+    <!-- My app main page -->
+    <div data-role="page" id="pageone" class="tlo">
+        <div data-role="header">
+            <h1>Drinks</h1>
+        </div>
+        <div class="context" data-role="main" class="ui-content">
+            <div class="contener">
+                <img src="img/cape-codder-250x175.jpg" alt="tu so mazuro">
+                <a href="#CapeCodder" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Cape Codder</a>
+                <div data-role="popup" id="CapeCodder">
+                    <h2>Cape Codder</h2>
+                    <div class="box">
+                        <h3>Składniki:</h3>
+                        <ul>
+                            <li>
+                                <p>wódka (50 ml)</p>
+                            </li>
+                            <li>
+                                <p>sok żurawinowy (100 ml)</p>
+                            </li>
+                            <li>
+                                <p>kostki lodu</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>Sposób przygotowania:</h3>
+                        <p>Do wysokiej szklanki wrzucamy kostki lodu. Wlewamy wódkę, sok żurawinowy i mieszamy. Możemy dodać ćwiartkę limonki jako ozdobę.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contener">
+                <img src="img/LAPD-Nightshift-250x175.jpg" alt="tu so mazuro">
+                <a href="#shot" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">L.A.P.D. Nightshift</a>
+                <div data-role="popup" id="shot">
+                    <h2>L.A.P.D. Nightshift – shot</h2>
+                    <div class="box">
+                        <h3>Składniki:</h3>
+                        <ul>
+                            <li>
+                                <p>grenadina (1/3 kieliszka)</p>
+                            </li>
+                            <li>
+                                <p>likier blue curacao (1/3 kieliszka)</p>
+                            </li>
+                            <li>
+                                <p>tequila (1/3 kieliszka)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>Sposób przygotowania:</h3>
+                        <p>Do kieliszka wlewamy po kolei grenadinę, likier blue curacao oraz tequilę. Aby warstwy się nie zmieszały, do nalewania należy użyć łyżeczki, po której należy nalewać poszczególne składniki.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contener">
+                <img src="img/black_magic-250x175.jpg" alt="tu so mazuro">
+                <a href="#BlackMagic" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Black Magic</a>
+                <div data-role="popup" class="" id="BlackMagic">
+                    <h2>Black Magic</h2>
+                    <div class="box">
+                        <h3>Składniki:</h3>
+                        <ul>
+                            <li>
+                                <p>wódka (50 ml)</p>
+                            </li>
+                            <li>
+                                <p>likier kawowy (50 ml)</p>
+                            </li>
+                            <li>
+                                <p>sok z cytryny (kilka kropel)</p>
+                            </li>
+                            <li>
+                                <p>kostki lodu</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>Sposób przygotowania:</h3>
+                        <p>Do szklanki wrzucamy kilka kostek lodu. Wlewamy wódkę i likier kawowy. Dodajemy kilka kropel cytryny i mieszamy. Szklankę można ozdobić plastrem cytryny.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Adrian Kopciński</h1>
+        </div>
+    </div>
+</body>
+
+</html>

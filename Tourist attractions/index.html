@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="js/pgb.js"></script>
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body onload="init()">
+
+    <!-- My app main page -->
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>Tourist attractions</h1>
+        </div>
+        <div class="context" data-role="main" class="ui-content">
+            <a href="#Masuria" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Masuria</a>
+            <div data-role="popup" id="Masuria">
+                <img src="img/1kisajno_mazury_Mariusz_Switulski_Shutterstock.jpeg" alt="tu so mazuro">
+            </div>
+            <br>
+            <a href="#Pomerania" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Pomerania</a>
+            <div data-role="popup" id="Pomerania">
+                <img src="img/hel-1.jpg" alt="tu so mazuro">
+            </div>
+            <br>
+            <a href="#TheTatraMountains" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">TheTatraMountains</a>
+            <div data-role="popup" id="TheTatraMountains">
+                <img src="img/U7CktkpTURBXy81YzFiZjYzNTZhNTAwYzNhNTAyMDM3ZmZjNzNlZmYwMy5qcGeSlQMAe80GQM0DhJMFzQMgzQHC.jpg" alt="tu so mazuro">
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Adrian Kopciński</h1>
+        </div>
+    </div>
+</body>
+
+</html>

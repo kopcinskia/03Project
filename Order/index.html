@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="js/pgb.js"></script>
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/themeR.min.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body onload="init()">
+
+    <!-- My app main page -->
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>Order</h1>
+        </div>
+        <div class="context" data-role="main" class="ui-content">
+            <br>
+            <br>
+            <label for="text-basic">Name and Surmane:</label>
+            <input type="text" name="text-basic" id="text-basic" value="">
+
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date" value="">
+
+            <label for="select-choice-a" class="select">Product List:</label>
+            <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+
+                <option>select</option>
+
+                <option value="mixer">Concrete mixer</option>
+
+                <option value="wheelbarrow">Wheelbarrow</option>
+
+                <option value="shovel">Shovel</option>
+
+                <option value="rake">Rake</option>
+
+                <option value="gloves">Gloves</option>
+            </select>
+
+            <label for="number-pattern">Quantity:</label>
+            <input type="number" name="number" pattern="[0-9]*" id="number-pattern" value="">
+
+            <button class="ui-btn ui-btn-inline">Approve</button>
+            <button class="ui-btn ui-btn-inline">Reject</button>
+
+
+
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Adrian Kopciński</h1>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
